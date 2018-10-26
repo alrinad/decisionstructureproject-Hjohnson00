@@ -25,7 +25,7 @@ public class Switch2 {
             String decision = db.nextLine();
             String response;
             
-            
+            //switch statement
             switch(decision){
                 case "drink it": 
                     response = "Congrats you died of poison";
