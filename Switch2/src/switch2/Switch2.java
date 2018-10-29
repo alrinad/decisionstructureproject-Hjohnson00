@@ -20,8 +20,8 @@ public class Switch2 {
     public static void main(String[] args) {
           //input for decision
         Scanner db = new Scanner(System.in);
-          out.println("You find a bottle on the ground what do you do with it,"
-                  + " drink it, leave it there, or yeet it?");
+          out.println("You find a bottle on the ground,"
+                  + " Drink it? Leave it there? or YEET it?");
             String decision = db.nextLine();
             String response;
             
@@ -33,13 +33,13 @@ public class Switch2 {
                 case "leave it there": 
                     response = "Really? Why is your life so boring?";
                     break;
-                case "yeet it":
-                    response = "You yeet the bottle leading to you getting a "
+                case "YEET it":
+                    response = "You YEET the bottle leading to you getting a "
                             + "overload of confidence for the rest of your life";
                     break;
                 default: 
-                    response = "Thats a invalid input, type drink it, leave it "
-                            + "there, or yeet it.";
+                    response = "Invaled, type drink it, leave it "
+                            + "there, or YEET it.";
                     break;
             }
                  
